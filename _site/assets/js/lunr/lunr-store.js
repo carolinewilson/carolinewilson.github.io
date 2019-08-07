@@ -9,7 +9,7 @@ var store = [{
         "tags": [],
         "url": "http://localhost:4000/creations/bean/",
         "teaser":"http://localhost:4000/assets/images/bean_subscription.png"},{
-        "title": "Get Match",
+        "title": "Gem Match",
         "excerpt":"Gem match is a one-player game based on the popular Bejewelled. Built using jQuery, users match rows and columns of gems within a time limit to boost their points score and progress to the next level.                                                https://gem-match.herokuapp.com/   https://github.com/carolinewilson/gem-match-game  ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/creations/gem_match/",

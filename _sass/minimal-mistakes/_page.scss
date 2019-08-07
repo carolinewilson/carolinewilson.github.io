@@ -136,7 +136,7 @@
   &--overlay {
     position: relative;
     margin-bottom: 2em;
-    padding: 3em 0;
+    padding: 7em 0;
     @include clearfix;
     background-size: cover;
     background-repeat: no-repeat;
@@ -151,8 +151,8 @@
     }
 
     .wrapper {
-      padding-left: 1em;
-      padding-right: 1em;
+      background-color: rgba(0,0,0,0.3);
+      padding: 3em 1em 1.7em;
 
       @include breakpoint($x-large) {
         max-width: $x-large;
@@ -164,15 +164,18 @@
     .page__lead,
     .btn {
       color: #fff;
-      text-shadow: 1px 1px 4px rgba(#000, 0.5);
     }
 
     .page__lead {
       max-width: $medium;
+      font-style: italic;
+      font-family: $serif;
+      font-size: $type-size-5;
     }
 
     .page__title {
       font-size: $type-size-2;
+      letter-spacing: 3px;
 
       @include breakpoint($small) {
         font-size: $type-size-1;

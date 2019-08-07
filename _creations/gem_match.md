@@ -1,5 +1,5 @@
 ---
-title: "Get Match"
+title: "Gem Match"
 excerpt: "A one-player game based on the popular Bejewelled."
 sidebar:
   - title: "Institute"
